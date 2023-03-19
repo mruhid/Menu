@@ -10,6 +10,7 @@ nav {
     align-items: center;
     background-color: green;
     height: 70px;
+    position: relative;
   }
 .ful-menu{
     display: flex;
@@ -91,6 +92,68 @@ margin-left: 140px;
 background-color: green;
 transition: 0.3ms;
 }
+nav div ul li a i h4{
+    font-size: 15px;
+    float: right;
+}
+@media (max-width:600px){
+    nav{
+       
+        position: relative;
+        display: inline-block;
+        height: 70px;
+        
+    }
+    .ful-menu ul {
+        list-style: none;
+        margin: 4px;
+        gap: 3px;
+        height: 70px;
+
+
+    }
+    .ful-menu ul li{
+        text-decoration: initial;
+        margin: 15px;
+        padding: 0px;
+        margin: 2px;
+        margin-top:10px;
+          
+    }
+    body nav .ful-menu .fa-house,body nav .ful-menu .fa-address-card,body nav .ful-menu .fa-info,body nav .ful-menu .fa-person,body nav .ful-menu .fa-address-card,body nav .ful-menu .fa-slideshare{
+        font-size: 1px;
+        
+    }
+    nav div ul li a i h4{
+        font-size: 13px;
+        margin: 0;
+
+    }
+    .main, .ful-menu ul li:hover .menu1 ul
+    {
+        display: block;
+        position: absolute;
+        background-color: green;
+       height: 160px;
+    }
+    .main, .ful-menu ul li:hover .menu1 ul li a
+    {
+       font-size: 20px;
+       
+    }
+    .li1:hover .menu1-1{
+        position: absolute;
+        display: block;
+        margin-top: -40px;
+        margin-left: 120px;
+        background-color: green;
+        transition: 0.3ms;
+        }
+       
+    }
+    
+
+
 
 
 
